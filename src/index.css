@@ -13,46 +13,58 @@ code {
 }
 
 .delBut {
-  margin: 5px 15px;
-  background-color: #4CAF50; /* Green background */
+  margin: 5px 5px;
+  background-color: #4caf50; /* Green background */
   border: 1px solid green;
   color: white;
   outline: none;
   border-top-left-radius: 15px;
-  border-top-right-radius : 15px;
-  border-bottom-left-radius : 15px;
-  border-bottom-right-radius : 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.mainMenu{
+.editBut {
+  margin-left: 10px;
+  background-color: #4caf50; /* Green background */
+  border: 1px solid green;
+  color: white;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.mainMenu {
   margin: 20px 20px 20px 20px;
 }
 
-.mainMenu button{ 
+.mainMenu button {
   margin: 5px 5px;
-  background-color: #4CAF50; /* Green background */
+  background-color: #4caf50; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   outline: none;
   border-top-left-radius: 15px;
-  border-top-right-radius : 15px;
-  border-bottom-left-radius : 15px;
-  border-bottom-right-radius : 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-ul{
-  list-style: none; 
+ul {
+  list-style: none;
 }
 
-ul li{
+ul li {
   display: inline-block;
 }
 
-.Heading{
+.Heading {
   margin-left: 70px;
 }
 
-.delDiv{
+.delDiv {
   margin-left: 70px;
 }

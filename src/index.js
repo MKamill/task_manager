@@ -21,6 +21,14 @@ function DeleteTask(id) {
   ShowTask();
 }
 
+function EditTask(id) {
+  let result;
+  result = prompt('Редактирование...', [localStorage.getItem(id)]);
+  localStorage.setItem(id, result);
+  ShowTask();
+}
+
+
 function ShowTask() {
   let arr2 = new Array();
   let _element_;
@@ -30,7 +38,7 @@ function ShowTask() {
     ReactDOM.render(
       <div>
         <h4 className="Heading">Все задачи выполнены. Вы молодец!</h4>
-        <h5 className="Heading">Добавим задач? :) Жми Сreate task!</h5>
+        <h5 className="Heading">Хотите добавить задачу? Жмите Сreate task!</h5>
       </div>,
       document.getElementById("list")
     );
@@ -40,9 +48,12 @@ function ShowTask() {
       arr2.push(
         <div className="delDiv">
           {index + 1}) {localStorage.getItem(index)}.
+          <button className="editBut" onClick={() => EditTask(index)}>
+            edit
+          </button>
           <button className="delBut" onClick={() => DeleteTask(index)}>
             delete
-          </button>
+          </button>         
         </div>
       );
     }

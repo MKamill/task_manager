@@ -12,15 +12,20 @@ code {
     monospace;
 }
 
-.delDiv {
-  margin: 15px 10px 5px 5px;
-}
-
 .delBut {
   margin: 5px 15px;
   background-color: #4CAF50; /* Green background */
   border: 1px solid green;
   color: white;
+  outline: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius : 15px;
+  border-bottom-left-radius : 15px;
+  border-bottom-right-radius : 15px;
+}
+
+.mainMenu{
+  margin: 20px 20px 20px 20px;
 }
 
 .mainMenu button{ 
@@ -29,6 +34,11 @@ code {
   border: 1px solid green; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
+  outline: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius : 15px;
+  border-bottom-left-radius : 15px;
+  border-bottom-right-radius : 15px;
 }
 
 ul{
@@ -37,4 +47,12 @@ ul{
 
 ul li{
   display: inline-block;
+}
+
+.Heading{
+  margin-left: 70px;
+}
+
+.delDiv{
+  margin-left: 70px;
 }

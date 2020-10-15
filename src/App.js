@@ -5,7 +5,7 @@ import './index.js'
 
 function App() {
   return (
-    <h1>dewd</h1>
+    <h1></h1>
   );
 }
 

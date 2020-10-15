@@ -14,7 +14,7 @@ code {
 
 .delBut {
   margin: 5px 5px;
-  background-color: #4caf50; /* Green background */
+  background-color: #da562f; /* Green background */
   border: 1px solid green;
   color: white;
   outline: none;
@@ -26,7 +26,7 @@ code {
 
 .editBut {
   margin-left: 10px;
-  background-color: #4caf50; /* Green background */
+  background-color: #506477; /* Green background */
   border: 1px solid green;
   color: white;
   outline: none;

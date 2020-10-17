@@ -61,10 +61,30 @@ ul li {
   display: inline-block;
 }
 
+.navBar li {
+  color: white; /* White text */
+  padding: 0px 0px; /* Some padding */
+  outline: none;
+  margin: 0px 5px;
+}
+
+.divNavBar {
+  margin: 0 auto;
+  width: 400px;
+}
+.navBar li a {
+  text-decoration: none;
+}
+
 .Heading {
   margin-left: 70px;
 }
 
 .delDiv {
   margin-left: 70px;
+}
+
+.myhr {
+  text-align: center;
+  width: 720px;
 }
